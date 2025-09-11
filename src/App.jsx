@@ -27,7 +27,7 @@ export const App = () => {
 
   return (
     <div>
-      <header>
+      <header className="header">
         <h1>My App</h1>
       </header>
       {isLoading && <p>読み込み中...</p>}

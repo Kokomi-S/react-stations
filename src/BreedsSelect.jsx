@@ -1,5 +1,4 @@
 // @ts-check
-
 export const BreedsSelect = ({ breeds, selectedBreed, onBreedChange }) => {
   const handleChange = (event) => {
     console.log(event.target.value);
